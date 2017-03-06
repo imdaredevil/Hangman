@@ -72,8 +72,8 @@ i=0;
 int main()
 {
 ptr=(char*)malloc(sizeof(char));
-a=(char*)malloc((strlen(q)+1)*sizeof(char));
 getquestion();
+a=(char*)malloc((strlen(q)+1)*sizeof(char));
 replacement();
 guess();
 return 0;
