@@ -18,6 +18,7 @@ void replacement()
 	a[i]=' ';
 	i++;
 	}while(q[i]!='\0');
+a[i]='\0';
 }
 void guess()
 {
@@ -71,7 +72,7 @@ i=0;
 int main()
 {
 ptr=(char*)malloc(sizeof(char));
-ptr=(char*)malloc((strlen(q)+1)sizeof(char))
+a=(char*)malloc((strlen(q)+1)*sizeof(char));
 getquestion();
 replacement();
 guess();
